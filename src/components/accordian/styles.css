@@ -1,0 +1,46 @@
+.wrapper
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.enable
+{
+    background: rgb(132, 132, 223);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+.accordian
+{
+    width: 500px;
+}
+.item
+{
+    background: blue;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.title
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title div
+{
+    cursor: pointer;
+}
+
+.content
+{
+    color: whitesmoke;
+    height: auto;
+}
